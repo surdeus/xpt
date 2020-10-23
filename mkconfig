@@ -1,0 +1,37 @@
+NAME = xpt
+VERSION = 1
+
+CC = tcc
+LD = $CC
+STRIP = strip
+
+LOCAL = $HOME/local
+BIN = $LOCAL/bin
+SHR = $LOCAL/shr
+MAN = $SHR/man
+
+USR = /usr
+USRLIB = $USRLIB/lib
+USRINC = $USR/include
+
+X11 = $USR/X11R6
+X11INC = -I$X11/include
+X11LIB = -L$X11/lib -lX11 -lXft
+
+DOTINC = -I.
+MLIB = -lm
+CLIB = -lc
+
+FCLIB = -lfontconfig
+FCINC = 
+FTLIB = 
+FTINC = -I$USRINC/freetype2
+
+LIB = $X11LIB $FCLIB $FTLIB $MLIB $CLIB
+INC = $X11INC $FCINC $FTINC $DOTINC
+
+CPPFLAGS = $INC \
+	-DVERSION=\"$VERSION\"
+	-D_XOPEN_SOURCE=600
+CFLAGS = $CPPFLAGS
+LDFLAGS = $LIB

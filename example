@@ -12,7 +12,7 @@ also:
 terminal presentations
 don't support images…
 
-@nyan.png
+@nyan.ff
 this text will not be displayed, since the @ at the start of the first line
 makes this paragraph an image slide.
 
@@ -26,12 +26,34 @@ depends on
 ~1000 lines of code
 
 usage:
-$ sent FILE1 [FILE2 …]
+	sent FILE1 [FILE2 …]
 
 ▸ one slide per paragraph
 ▸ lines starting with # are ignored
 ▸ image slide: paragraph containing @FILENAME
 ▸ empty slide: just use a \ as a paragraph
+
+Here we can check what's happening when
+you type much and much and much and much and much and much and much and much of text...
+Good presentations do not have much of text so make GOOD presentations or don't make 'em at all.
+Abusus non tollit usum. Accepto damno. Accessio cedit principali. Actio bonae fidei. Actio in factum concepta.
+Actio in ius concepta.  Actio in personam. Actio in rem. Actio noxalis. Actio poenalis. Alibi. A potiori.
+Argumenta ponderantur, non numerantur. Argumentum ad oculos.
+Bis dat qui cito dat. Bonorum possessio.
+Casum sentit dominus. Caveat emptor. Ceteris paribus. Condicio sine qua non. Contra factum non datur argumentum.
+Conventio facit legam. Corpus delicti.
+rescente malitia crescere debet et poena. Cuius commodum, eius debet esse incommodum.
+Cuius commodum, eius periculum. Curia advisare vult!
+Damnum emergens et lucrum cessans. Deceptus pro nolente est. Duo cum faciunt idem, non est idem.
+Ex maleficio non oritur contractus. Ex turpi causa actio non oritur.
+Falsus in uno falsus in omnibus. Fraus omnia corrumpit.
+Grata, rata et accepta.
+Habeat sibi! Hereditas iacens. Heres succedens in honore succedit in onere.
+Imperitia culpae adnumeratur. Iniuria non excusat iniuriam. In maxima potentia minima licentia.
+Ita utere tuo, ut alienum non laedas. Iuris effectus in excutione consistit. Iuris praecepta sunt haec:
+honeste vivere, alterum non laedare, suum ciuque tribuere.
+Ius est ars boni et aequi. Ius utendi-fruendi. Ius vitae necisque.
+Legem brevem esse oportet. Leges virtus haec est: imperare, vetare, promittere, punire. Lex prospicit non respicit. 
 
 # This is a comment and will not be part of the presentation
 

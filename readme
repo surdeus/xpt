@@ -1,0 +1,17 @@
+# xpt
+
+
+xpt - X presentation tool.
+
+
+## Description
+
+Xpt does not need latex, libreoffice or any other fancy file format, it uses
+plaintext files to describe the slides and can include images via farbfeld.
+Every paragraph represents a slide in the presentation.
+
+
+## Credits
+
+xpt is based on sent which is is developed at http://tools.suckless.org/sent .
+
